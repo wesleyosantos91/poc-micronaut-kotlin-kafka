@@ -1,0 +1,25 @@
+micronaut:
+  application:
+    name: pocMicronautKotlinKafka
+
+kafka:
+  embedded:
+    enabled: true
+  bootstrap:
+    servers: localhost:29092
+  client:
+    id: ${random.uuid}
+  specific:
+    avro:
+      reader: true
+  schema:
+    registry:
+      url: http://localhost:8081
+  consumers:
+    default:
+      key.deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value.deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
+  producers:
+    default:
+      key.serializer: org.apache.kafka.common.serialization.StringSerializer
+      value.serializer: io.confluent.kafka.serializers.KafkaAvroSerializer

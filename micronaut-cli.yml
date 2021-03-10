@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: io.github.wesleyosantos91
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle
+features: [annotation-api, app-name, gradle, http-client, junit, kafka, kotlin, kotlin-application, logback, netty-server, readme, shade, yaml]
