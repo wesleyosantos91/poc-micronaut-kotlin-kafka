@@ -26,6 +26,8 @@ Trata-se de uma aplicação de prova de conceito para desenvolver um consumer e 
 
 > Apache avro: O Avro é uma estrutura de serialização de chamada e procedimento remoto orientada a linhas, desenvolvida no projeto Hadoop do Apache. Ele usa JSON para definir tipos e protocolos de dados e serializa dados em um formato binário.
 
+> Kotlin: Kotlin é uma Linguagem de programação multiplataforma, orientada a objetos e funcional, concisa e estaticamente tipada, desenvolvida pela JetBrains em 2011, que compila para a Máquina virtual Java e que também pode ser traduzida para a linguagem JavaScript e compilada para código nativo.
+
 ## Tecnologias
 - Kotlin 1.4.30
 - Micronaut 2.3.4
